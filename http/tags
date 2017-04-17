@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FATAL	httpd.h	22;"	d
+NORMAL	httpd.h	20;"	d
+SIZE	httpd.h	19;"	d
+Usage	http_ctl.sh	/^function Usage()$/;"	f
+WORNNING	httpd.h	21;"	d
+_HTTPD_H	httpd.h	2;"	d
+accept_sock	httpd.c	/^void* accept_sock(void *fd)$/;"	f
+clear_head	httpd.c	/^static void clear_head(int sock)\/\/也要先把请求处理完，再往里面响应$/;"	f	file:
+echo_www	httpd.c	/^static int echo_www(int sock,char* path,ssize_t sz)\/\/将一个非cgi模式的目标资源直接进行响应给web浏览器？，如何做？:还需要保证读取完整个请求报文，：空行处$/;"	f	file:
+excu_cgi	httpd.c	/^static int excu_cgi(const char *method,int sock,const char* path,const char *query_string,ssize_t sz)$/;"	f	file:
+get_line	httpd.c	/^static int get_line(int sock,char* buf,int sz)$/;"	f	file:
+handler_sock	httpd.c	/^int handler_sock(int sock)$/;"	f
+main	cgi/cgi.c	/^int main()$/;"	f
+main	main.c	/^int main(int argc ,char* argv[])$/;"	f
+start	http_ctl.sh	/^function start()$/;"	f
+startup	httpd.c	/^int startup(char* _ip,int _port)$/;"	f
+stop	http_ctl.sh	/^function stop()$/;"	f
