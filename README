@@ -1,0 +1,15 @@
+文件说明:
+----带*的是没有完成的功能
+	httpd.c:
+	httpd.h:
+	main.c: 
+	output:发布工程文件：该文件是不包含源码的可执行程序及其依赖文件
+	configure.sh:Web服务的配置文件，自动生成makefile。
+	cgi :内部是一个cgi程序：完成两数加运算
+	wwwroot:存放资源的根目录，即URL中的根目录
+	http_ctl.sh:控制脚本，决定了服务的开始，结束，重启
+	conf :里面的文件内容和控制脚本有关：不用每次执行服务的时候都重新输入IP和PORT
+*	log：日志，
+*	sql_connect
+
+	
